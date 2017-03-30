@@ -1,8 +1,6 @@
-# Overwatch.Net
+# Overwatch.Net.Core
 
 An unofficial player stats API for the Blizzard game "Overwatch".
-
-[![NuGet version](https://badge.fury.io/nu/Overwatch.Net.svg)](https://badge.fury.io/nu/Overwatch.Net)
 
 ## What is it?
 
@@ -14,9 +12,6 @@ A simple wrapper that grabs player stats from a users PlayOverwatch.com profile 
 * Serializable - No complex data.
 * Region detection - Easily find the correct region for a player.
 * Platform detection - Detect which platform a player might play on.
-
-## Planned Features
-* None at the moment - Any feature requests will be placed here.
 
 ## Dependencies
 * AngleSharp - Used to parse the data from the PlayOverwatch page as no other data source is available from Blizzard.
@@ -47,6 +42,8 @@ string profileUrl = OverwatchAPIHelpers.ProfileUrl("SomePlayer#1234", Region.eu)
 Please see the "OverwatchDotNetTestbed" project if you'd like to see an implementation.
 
 ## Contact
-If you wish to contact me about contributing to the project, or have any questions / suggestions please feel free to come find me on the [C# discord server.](https://discord.gg/0np62rq4o8GnQO9l "C# Discord") - @Doombox#0661
+If you wish to contact the original creator about contributing to the project, or have any questions / suggestions please feel free to come find me on the [C# discord server.](https://discord.gg/0np62rq4o8GnQO9l "C# Discord") - @Doombox#0661
+
+If you wish to contact me you may do so at Battletag DirtyBert#11920.
 
 Please report any issues or bugs that you may find at your earliest convenience so I can get them fixed ASAP.
